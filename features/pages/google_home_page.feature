@@ -1,13 +1,8 @@
-Feature: Google Home Page Feature
-  As a user
-  I want to navigate all the google products page
+Feature: Google Home Page
+  Go to google.com
+  validate the title
 
-  Scenario Outline: User can navigate all the google products page
+  Scenario: User should go to google.com
     Given I am logging google home page
-    When I select <option> from the header
-    Then I should see <option> product page
-  Examples: header links
-    | option  |
-    | Play    |
-    | Images  |
-    | Maps    |
+    When I log to google home page
+    Then I verify title
