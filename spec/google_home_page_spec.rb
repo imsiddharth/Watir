@@ -9,12 +9,14 @@ describe GoogleHomePage do
 
   it 'should go to google homepage' do
     google_page.go_to_homepage
-    google_page.verify_page('Google').should be_true
+    driver.title == 'Google'
+    driver.close
   end
 
   it 'should go to google news page' do
     google_page.go_to_homepage
     google_page.goto_product('Images')
-    google_page.verify_page('Images').should be_true
+    driver.title == 'Google Images'
+    driver.close
   end
 end

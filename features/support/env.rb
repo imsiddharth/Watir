@@ -1,2 +1,2 @@
 
-require File.dirname(__FILE__) + "/../lib/pages"
+require File.dirname(__FILE__) + "/../../lib/pages"

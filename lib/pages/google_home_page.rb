@@ -11,12 +11,14 @@ class GoogleHomePage
   end
 
   def goto_product(product)
-    driver.find(:xpath, ".//span[contains(text(), '#{product}')]").click
+    driver.link(text: 'Images').click
+
+    #browser.link(:text =>"Add").click
     sleep 10
   end
 
-  def verify_page(product)
-    driver.title.include?(product)
-  end
+  #def verify_page(product)
+  #  driver.title.include?(product)
+  #end
 
 end
