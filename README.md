@@ -1,7 +1,7 @@
 # Watir
 
 This purpose of this project is to get basic understanding of watir-webdriver.
-It gives the perfect example how the TDD and BDD works.
+It gives the perfect example how the TDD and BDD works with Page Object Model.
 
 TDD can be compared with RSPEC which is under spec directory.
 
