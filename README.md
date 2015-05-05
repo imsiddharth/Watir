@@ -3,8 +3,6 @@
 This purpose of this project is to get basic understanding of watir-webdriver.
 It gives the perfect example how the TDD and BDD works with Page Object Model.
 
-TDD can be compared with RSPEC spec files which is under spec directory.
-
 BDD can be compared with CUCUMBER feature files which is under feature directory.
 
 The project required some gems.
